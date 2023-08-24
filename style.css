@@ -87,10 +87,31 @@ h1{
 }
 .write-up{
   position: absolute;
-  top: 440px;
+  top: 244px;
   left: 360px;
   background-color: #D8AA2B;
   width: 50%;
   margin: auto;
   border-radius: 30px;
+}
+.emoji-face{
+  float: left;
+}
+.wrapper{
+  width: 450px;
+  margin: 0px auto;
+}
+
+p{
+  padding: 40px;
+  text-align: center;
+}
+
+.emoji-face:hover{
+  width: 110px;
+  height: 110px;
+  background-color: rgb(52, 20, 20);
+  margin: 20px;
+  border-radius: 50%;
+  position: relative;
 }
